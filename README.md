@@ -1,27 +1,22 @@
-# Tic-Tac-Toe Game
+# Tic-Tac-Toe Game Project
 
 ## Part 1: Project Introduction
 
-In this project, you will build a Tic-Tac-Toe game in the command line interface. Two players, X and O, will take turns picking their next move by entering the numbers in the command line (See the screenshot on the right-hand side).
+In this project, you will build a Tic-Tac-Toe game in the command line interface. Two players, X and O, will take turns picking their next move by entering numbers in the command line.
 
-To help you in building the project, we have broken down the project into 2 parts: 
+### Project Breakdown
 
-### Part 1: To build all the utility functions for this game including:
+The project is divided into two parts:
 
-○ markBoard
+- **Part 1**: Build all the utility functions for the game, including:
+  - `markBoard`
+  - `printBoard`
+  - `validateMove`
+  - `checkWin`
+  - `checkFull`
+  - A constant variable storing all the winning combinations (`winCombinations`)
 
-○ printBoard
-
-○ validateMove
-
-○ checkWin
-
-○ checkFull, and
-
-○ A constant variable storing all the winning combinations
-(winCombinations)
-
-###  Part 2: To complete the gameplay using the utility functions you built in Part 1.  
+- **Part 2**: Complete the gameplay using the utility functions built in Part 1.
 
 
 # Tic-Tac-Toe Utility Functions
