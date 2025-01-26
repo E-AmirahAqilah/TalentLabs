@@ -21,4 +21,21 @@ To help you in building the project, we have broken down the project into 2 part
 ○ A constant variable storing all the winning combinations
 (winCombinations)
 
-###  Part 2: To complete the gameplay using the utility functions you built in Part 1.
+###  Part 2: To complete the gameplay using the utility functions you built in Part 1.  
+
+
+# Tic-Tac-Toe Utility Functions
+
+This document outlines the utility functions required for a Tic-Tac-Toe game. Each function has specific requirements and responsibilities.
+
+## Functions
+
+### `markBoard(position, mark)`
+- **Inputs:**
+  - `position`: A number representing the box number.
+  - `mark`: The player's mark (X or O).
+- **Description:** This function fills the specified box with the player's mark (X or O).
+
+### `printBoard()`
+- **Description:** Prints the current state of the game board. If a box is unoccupied, it prints the number of that box.
+- **Example Output:**
