@@ -6,9 +6,9 @@ In this project, you will build a Tic-Tac-Toe game in the command line interface
 
 To help you in building the project, we have broken down the project into 2 parts:
 
-### * Part 1: To build all the utility functions for this game including:
+### Part 1: To build all the utility functions for this game including:
 
-○ markBoard
+** markBoard
 ○ printBoard
 ○ validateMove
 ○ checkWin
