@@ -44,3 +44,23 @@ This document outlines the utility functions required for a Tic-Tac-Toe game. Ea
 |---|---|---|
 | X | X | 6 |
 | O | 8 | O |
+
+
+### `validateMove(position)`
+- **Inputs:**
+- `position`: The position that the player picked.
+- **Description:** Validates the player's move and returns `true` or `false`.
+- **Checks for:**
+  - Wrong Input (invalid position, not entering a position).
+  - Out of bound position (smaller than 1 or larger than 9).
+  - The position is already occupied.
+- **Returns:** `true` if the input is correct, otherwise `false`.
+
+### `checkWin()`
+- **Description:** Checks if the current player has won the game.
+- **Returns:** `true` if the player has won, otherwise `false`.
+
+## Usage
+
+To use these functions, ensure you have a basic understanding of the game rules and the structure of the game board. Each function plays a crucial role in managing the game state and ensuring a smooth gameplay experience.
+
