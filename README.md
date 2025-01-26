@@ -20,3 +20,5 @@ To help you in building the project, we have broken down the project into 2 part
 
 ○ A constant variable storing all the winning combinations
 (winCombinations)
+
+###  Part 2: To complete the gameplay using the utility functions you built in Part 1.
