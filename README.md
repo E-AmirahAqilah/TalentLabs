@@ -39,3 +39,7 @@ This document outlines the utility functions required for a Tic-Tac-Toe game. Ea
 ### `printBoard()`
 - **Description:** Prints the current state of the game board. If a box is unoccupied, it prints the number of that box.
 - **Example Output:**
+
+X	O	3
+X	X	6
+O	8	O
