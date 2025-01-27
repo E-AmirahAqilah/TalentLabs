@@ -63,7 +63,8 @@ This structure allows for easy manipulation and tracking of the game state as pl
 - **Description:** Checks if the current player has won the game.
 - **Returns:** `true` if the player has won, otherwise `false`.
 
-## Usage
+### `checkFull` 
+- This function checks if the game is in a tie situation, meaning all boxes are occupied with no winner.
 
-To use these functions, ensure you have a basic understanding of the game rules and the structure of the game board. Each function plays a crucial role in managing the game state and ensuring a smooth gameplay experience.
-
+### `winCombinations`
+- This is a constant variable (not a function) that lists all 8 winning combinations as an array of arrays. The first combination is provided as an example.
