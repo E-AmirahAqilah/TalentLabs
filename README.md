@@ -31,9 +31,6 @@ In this project, we represent the tic-tac-toe game board using an object with 9 
 
 This structure allows for easy manipulation and tracking of the game state as players move.
 
-
-This document outlines the utility functions required for a Tic-Tac-Toe game. Each function has specific requirements and responsibilities.
-
 ## Functions
 
 ### `markBoard(position, mark)`
