@@ -18,8 +18,19 @@ The project is divided into two parts:
 
 - **Part 2**: Complete the gameplay using the utility functions built in Part 1.
 
+# Tic-Tac-Toe Game Utility Functions
 
-# Tic-Tac-Toe Utility Functions
+## Part 2: Build All the Utility Functions for the Game
+
+### Get Familiar with the Data Structure
+
+In this project, we represent the tic-tac-toe game board using an object with 9 properties. Each property corresponds to one box on the game board, arranged sequentially.
+
+- **Property Name**: Represents the position of the box.
+- **Property Value**: Indicates who placed their mark in the box (either "X", "O", or "·").
+
+This structure allows for easy manipulation and tracking of the game state as players move.
+
 
 This document outlines the utility functions required for a Tic-Tac-Toe game. Each function has specific requirements and responsibilities.
 
